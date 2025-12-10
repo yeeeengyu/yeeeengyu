@@ -40,6 +40,8 @@
 
 <p align="center">
   <p align="center">🥈2025 GBSW 1학기 캡스톤 <b>은상</b></p>
+  <p align="center">🥉2025 데이터 크리에이터 캠프 <b>장려상</b></p>
+  <p align="center">🥉2025 전국 고등학교 동아리 SW 경진대회 <b>장려상</b></p>
   <p align="center">🥉2024 의성 해커그라운드 해커톤 <b>장려상</b></p>
   <p align="center">📜 <b>정보처리기능사</b> 취득</p>
   <p align="center">🍎 Apple Foundation Program @ POSTECH 4기</p>
