@@ -40,6 +40,7 @@
 
 <p align="center">
   <p align="center">🥈2025 GBSW 1학기 캡스톤 <b>은상</b></p>
+  <p align="center">🥉2025 GBSW 2학기 캡스톤 <b>동상</b></p>
   <p align="center">🥉2025 데이터 크리에이터 캠프 <b>장려상</b></p>
   <p align="center">🥉2025 전국 고등학교 동아리 SW 경진대회 <b>장려상</b></p>
   <p align="center">🥉2024 의성 해커그라운드 해커톤 <b>장려상</b></p>
