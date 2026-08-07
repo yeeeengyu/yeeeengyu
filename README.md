@@ -11,6 +11,7 @@ class Yeeeengyu:
         'Infra': ['Docker', 'AWS', 'Cloudflare'],
     }
 
+
     projects = {
         'School': {
             'Gesture': 'Video Conference Service with Real-time Korean Sign Language Translation',
@@ -26,6 +27,7 @@ class Yeeeengyu:
             'IncidFlow': 'LangGraph-based Incident Report Automation Service',
         },
     }
+
 
     awards = {
         'School': {
@@ -46,7 +48,9 @@ class Yeeeengyu:
         },
     }
 
+
     certifications = ['정보처리기능사', '파이썬프로그래밍 3급', '딥러닝활용자격증 3급']
+
 
     etc = {
         'blogs': {
@@ -56,6 +60,7 @@ class Yeeeengyu:
         'LinkedIn': r"https://www.linkedin.com/in/%EC%9D%B8%EA%B7%9C-%EC%B5%9C-148b7b351/",
         'PortFolio': r"https://yeeeengyu.notion.site/1e92a6b0e27480cfbb0eff89b51303fd?pvs=74",
     }
+
 
     def introduce(self):
         return {
