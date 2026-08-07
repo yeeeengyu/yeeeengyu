@@ -1,55 +1,69 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:306998,100:FFD43B&height=300&section=header&text=HIGHSCHOOL%20DEV-nl-INGYU%20CHOI&fontSize=60" alt="header" />
-</p>
+```python
+# Welcome to my Github !!
 
-## Stack
+class Yeeeengyu:
+    role = 'AIML Backend Engineer'
 
-<p align="center">
-  <b>Web</b><br/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+    stack = {
+        'Backend': ['FastAPI','Flask'],
+        'Database': ['MongoDB', 'MySQL'],
+        'AIML': ['Python', 'PyTorch', 'LangChain', 'LangGraph', 'FAISS', 'YOLO', 'MediaPipe'],
+        'Infra': ['Docker', 'AWS', 'Cloudflare'],
+    }
 
-<p align="center">
-  <b>AIML</b><br/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-</p>
+    projects = {
+        'School': {
+            'Gesture': 'Video Conference Service with Real-time Korean Sign Language Translation',
+            'Dogtor': 'On-Device AI-Powered Pet Healthcare Service',
+            'FreshMoney': 'Youth Policy and Financial Management Service',
+            'LightBox': 'Real-time Drowsiness Detection & Alert Service',
+        },
 
-<p align="center">
-  <b>Data Analytics</b><br/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-</p>
+        'Personal': {
+            'whatsMeal': 'GBSW School Meal Menu in the Desktop System Tray',
+            'WeatherClassifier': 'Real-time Weather Predictor',
+            'SwaggerInspector': 'RAG-Based Chatbot for Exploring Project Functions',
+            'IncidFlow': 'LangGraph-based Incident Report Automation Service',
+        },
+    }
 
-<p align="center">
-  <b>DB</b><br/>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
-</p>
+    awards = {
+        'School': {
+            'Capstone': {
+                '2026_GBSW_1st_Semester_Capstone': 'Gold Award',
+                '2025_GBSW_2nd_Semester_Capstone': 'Bronze Award',
+                '2025_GBSW_1st_Semester_Capstone': 'Silver Award',
+            },
 
-<p align="center">
-  <b>Deploy</b><br/>
-  <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-</p>
+            '2026_GBSW_Algorithm_Challenge': 'Silver Award',
+        },
 
-## Awards
+        'External': {
+            '제10회 전국 고등학교 동아리 SW 경진대회': 'Encouragement Award',
+            '제7회 데이터 크리에이터 캠프': 'Encouragement Award',
+            '2025 SWAI': 'Excellence Award',
+            '2024 Microsoft 해커그라운드 해커톤': 'Encouragement Award'
+        },
+    }
 
-<p align="center">
-  <p align="center">🥈2025 GBSW 1학기 캡스톤 <b>은상</b></p>
-  <p align="center">🥉2025 GBSW 2학기 캡스톤 <b>동상</b></p>
-  <p align="center">🥉2025 데이터 크리에이터 캠프 <b>장려상</b></p>
-  <p align="center">🥉2025 전국 고등학교 동아리 SW 경진대회 <b>장려상</b></p>
-  <p align="center">🥉2024 의성 해커그라운드 해커톤 <b>장려상</b></p>
-  <p align="center">📜 <b>정보처리기능사</b> 취득</p>
-  <p align="center">🍎 Apple Foundation Program @ POSTECH 4기</p>
-</p>
+    certifications = ['정보처리기능사', '파이썬프로그래밍 3급', '딥러닝활용자격증 3급']
 
-## Github Status
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yeeeengyu&show_icons=true&theme=merko" alt="Anurag's GitHub stats" />
-</p>
+    etc = {
+        'blogs': {
+            'skillBlog': r"https://blog.ingyuc.click/",
+            'lifeBlog' : r"https://blog.naver.com/yeeeengyu"
+        }, 
+        'LinkedIn': r"https://www.linkedin.com/in/%EC%9D%B8%EA%B7%9C-%EC%B5%9C-148b7b351/",
+        'PortFolio': r"https://yeeeengyu.notion.site/1e92a6b0e27480cfbb0eff89b51303fd?pvs=74",
+    }
+
+    def introduce(self):
+        return {
+          'role': self.role,
+          'stacks': self.stack,
+          'projects': self.projects,
+          'awards': self.awards,
+          'qualifications': self.qualifications,
+          'more': self.etc
+          }
+```
