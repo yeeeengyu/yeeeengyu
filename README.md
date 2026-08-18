@@ -1,74 +1,49 @@
-Welcome my Github
-```python
-class Yeeeengyu:
-    role = 'AIML Backend Engineer'
+```
+from typing import Any
 
+class Yeeeengyu:
+    role = 'AI/ML Backend Engineer'
 
     stack = {
-        'Backend': ['FastAPI','Flask'],
+        'Backend': ['FastAPI', 'Flask'],
+        'AI/ML': ['PyTorch', 'LangChain', 'LangGraph', 'YOLO'],
         'Database': ['MongoDB', 'MySQL'],
-        'AIML': ['Python', 'PyTorch', 'LangChain', 'LangGraph', 'FAISS', 'YOLO', 'MediaPipe'],
-        'Infra': ['Docker', 'AWS', 'Cloudflare'],
+        'Infra': ['Docker', 'AWS'],
     }
-
 
     projects = {
-        'School': {
-            'Gesture': 'Video Conference Service with Real-time Korean Sign Language Translation',
-            'Dogtor': 'On-Device AI-Powered Pet Healthcare Service',
-            'FreshMoney': 'Youth Policy and Financial Management Service',
-            'LightBox': 'Real-time Drowsiness Detection & Alert Service',
-        },
-
-        'Personal': {
-            'whatsMeal': 'GBSW School Meal Menu in the Desktop System Tray',
-            'WeatherClassifier': 'Real-time Weather Predictor',
-            'SwaggerInspector': 'RAG-Based Chatbot for Exploring Project Functions',
-            'IncidFlow': 'LangGraph-based Incident Report Automation Service',
-        },
+        'Gesture': '실시간 수어 번역 영상회의 서비스',
+        'Dogtor': '온디바이스 AI 반려견 케어 서비스',
+        'FreshMoney': '청년정책 · 재정관리 서비스',
+        'IncidFlow': 'LangGraph기반 장애보고서 작성 자동화 에이전트',
     }
-
 
     awards = {
-        'School': {
-            'Capstone': {
-                '2026_GBSW_1st_Semester_Capstone': 'Gold Award',
-                '2025_GBSW_2nd_Semester_Capstone': 'Bronze Award',
-                '2025_GBSW_1st_Semester_Capstone': 'Silver Award',
-            },
-
-            '2026_GBSW_Algorithm_Challenge': 'Silver Award',
-        },
-
-        'External': {
-            '제10회 전국 고등학교 동아리 SW 경진대회': 'Encouragement Award',
-            '제7회 데이터 크리에이터 캠프': 'Encouragement Award',
-            '2025 SWAI': 'Excellence Award',
-            '2024 Microsoft 해커그라운드 해커톤': 'Encouragement Award'
-        },
+        'GBSW 2026 1학기 캡스톤': '금상',
+        'GBSW 2025 2학기 캡스톤': '동상',
+        'GBSW 2025 1학기 캡스톤': '은상',
+        '2025 SWAI': '우수상',
+        '데이터 크리에이터 캠프': '장려상',
+        '전국 고등학교 동아리 SW 경진대회': '장려상',
+        '2024 MS 해커그라운드 해커톤': '장려상',
     }
-
-
-    certifications = ['정보처리기능사', '파이썬프로그래밍 3급', '딥러닝활용자격증 3급']
-
 
     etc = {
-        'blogs': {
-            'skillBlog': r"https://blog.ingyuc.click/",
-            'lifeBlog' : r"https://blog.naver.com/yeeeengyu"
-        }, 
-        'LinkedIn': r"https://www.linkedin.com/in/%EC%9D%B8%EA%B7%9C-%EC%B5%9C-148b7b351/",
-        'PortFolio': r"https://yeeeengyu.notion.site/1e92a6b0e27480cfbb0eff89b51303fd?pvs=74",
+        'blog': r'https://blog.ingyuc.click',
+         # life_blog = r'https://blog.naver.com/yeeeengyu'
+        'linkedIn': r'https://linkedin.com/in/인규-최',
+        'portfolio': r'https://yeeeengyu.notion.site/1e92a6b0e27480cfbb0eff89b51303fd?pvs=74',
     }
 
-
-    def introduce(self):
+    def introduce(self) -> dict[str, Any]:
         return {
-          'role': self.role,
-          'stacks': self.stack,
-          'projects': self.projects,
-          'awards': self.awards,
-          'qualifications': self.qualifications,
-          'more': self.etc
-          }
+            'role': self.role, 
+            'stacks': self.stack,
+            'projects': self.projects,
+            'awards': self.awards,
+            'etc': self.etc
+        }
+
+me = Yeeeengyu()
+print(me.introduce())
 ```
