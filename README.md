@@ -27,7 +27,8 @@ class Yeeeengyu:
         return {
             'role': self.role, 
             'stacks': self.stack,
-            'etc': self.etc
+            'etc': self.etc,
+            'portfolio': PORTFOLIO
         }
 
 me = Yeeeengyu()
