@@ -16,8 +16,8 @@ class Yeeeengyu:
 
     etc = {
         'blog': {
-            skill_blog:  r'https://blog.ingyuc.click',
-            life_blog: r'https://blog.naver.com/yeeeengyu'
+            'skill_blog':  r'https://blog.ingyuc.click',
+            'life_blog': r'https://blog.naver.com/yeeeengyu'
         },
         'linkedIn': r'https://linkedin.com/in/인규-최',
     }
